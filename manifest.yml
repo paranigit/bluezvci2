@@ -1,0 +1,16 @@
+---
+declared-services:
+  Speech To Text-qv:
+    label: speech_to_text
+    plan: free
+  Text to Speech-4e:    
+    label: text_to_speech
+    plan: free
+applications:
+- name: BluezVCI2
+  command: node app.js
+  path: .
+  memory: 256m
+  services:
+  - Speech To Text-qv
+  - Text to Speech-4e

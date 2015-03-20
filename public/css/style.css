@@ -1,0 +1,153 @@
+body {
+	margin: 0 auto;
+	background-color: gray;
+}
+
+h1 {
+	position: relative;
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	display: block;
+	background: black;
+	margin:0; border:0;
+	padding:10px;
+	font-family: "Berlin Sans FB";
+}
+#wrapper {
+	position: relative;
+	height: 600px;
+	width: 450px;
+	display:block;
+	border: 5px solid black;
+	margin: 15px auto;
+	background: url('/images/bg1.jpg') center no-repeat;
+	background-size: 450px 600px;
+	overflow: hidden;
+}
+
+#watson {
+	height: 120px;
+	display: block;
+	width: 120px;
+	margin: 15px auto;
+	position: relative;	
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-size: 90px 90px;
+	background-color: white;	
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+}
+
+.watson-processing{
+	background-image: url('/images/watson.gif');
+}
+
+.sense-gps-location{	
+	background-image: url('/images/watson.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.invest-search{
+	background-image: url('/images/searching-gif1.gif');
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+#watson-text {
+	position: relative;
+	height: 200px;
+	display: block;
+	width: 310px;
+	float: left;
+	margin-left: 20px;
+}
+
+#watson-text h2{
+	padding:0 7px;
+	color:blue;
+	font-family: 'Segoe ui';
+	font-size: 16px;
+}
+
+#watson-text p{
+	margin:0; border:0;
+	widht: 280px;
+	display: block;
+	padding: 3px 10px;
+	text-align: justify;
+	font-family: 'Segoe ui';
+	font-size: 13px;
+}
+
+#watson-rec {
+	float:right;
+	margin-right: 20px;
+}
+
+#rec-text {
+	width: 80px;
+	height: 30px;
+	display: block;
+	float: right;
+	margin-top: 15px;
+	margin-right: 20px;
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#rec-btn{
+	position: relative;
+	width: 74px;
+	height: 74px;
+	background-size: 73px 73px;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-border-radius: 37px;
+	-moz-border-radius: 37px;
+	border-radius: 37px;
+}
+
+#controls {
+	position: relative;
+	clear: both;
+	margin:0 auto;
+	width: 100px;	
+	padding: 10px 0;
+}
+
+#start-btn {
+	position: relative;
+	height: 100px;	
+	width: 100px;
+	background: url('/images/green_button.png') center no-repeat;
+	background-size: 100px 100px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	pointer: cursor;
+	font-family: 'impact';
+	color: white;
+	font-size: 24px;
+}
+
+#footer{
+	widht: 100%;
+	clear: both;
+	background: black;
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+}
+
+#footer p{
+	color: white;
+	text-align: right;
+	font-size: 13px;
+	padding: 25px 10px 15px 0;
+}
